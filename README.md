@@ -71,9 +71,7 @@ Details are in respective branch.
 
 * **_id_**
 * **_arn_**
-* **_name_**
 
-Details are in respective branch.
 
 
 ### Usage
