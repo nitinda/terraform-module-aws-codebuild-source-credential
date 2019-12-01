@@ -9,3 +9,4 @@ variable "server_type" {
 variable "token" {
   description = "This is the personal access token"
 }
+
