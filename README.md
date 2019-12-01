@@ -3,14 +3,14 @@
 
 ## General
 
-This module may be used to create CodeBuild Source Credential resources in AWS cloud provider..
+This module may be used to create **_CodeBuild Source Credential_** resources in AWS cloud provider..
 
 ---
 
 
 ## Prerequisites
 
-This module needs Terraform 0.11.14 or newer.
+This module needs Terraform 0.12.16 or newer.
 You can download the latest Terraform version from [here](https://www.terraform.io/downloads.html).
 
 This module deploys aws services details are in respective feature branches.
@@ -21,9 +21,6 @@ This module deploys aws services details are in respective feature branches.
 
 Below we are able to check the resources that are being created as part of this module call:
 
-From branch : **_terraform-11/master_**
-
-* **_CodeBuild Source Credential (Terraform 11 supported code)_**
 
 From branch : **_terraform-12/master_** *work in progress*
 
@@ -47,7 +44,7 @@ To use this module, add the following call to your code:
 
 ```tf
 module "<layer>-codebuild-source-credential-<AccountID>" {
-  source = "git::https://github.com/nitinda/terraform-module-aws-codebuild-source-credential.git?ref=master"
+  source = "git::https://github.com/nitinda/terraform-module-aws-codebuild-source-credential.git?ref=terraform-12/master"
 
 
 }
@@ -61,10 +58,10 @@ The variables required in order for the module to be successfully called from th
 
 |         **_Variable_**          |        **_Description_**            |   **_Type_**   |
 |---------------------------------|-------------------------------------|----------------|
+| auth_type                       | The type of authentication used     | string         |
+| server_type                     | The source provider used            | string         |
+| token                           | The personal access token           | string         |
 
-
-
-Details are in respective branch.
 
 
 ## Outputs
