@@ -22,9 +22,9 @@ This module deploys aws services details are in respective feature branches.
 Below we are able to check the resources that are being created as part of this module call:
 
 
-From branch : **_terraform-12/master_** *work in progress*
+From branch : **_terraform-12/master_**
 
-* **_CodeBuild Source Credential (Terraform 11 supported code - work in progres)_**
+* **_CodeBuild Source Credential (Terraform 12 supported code)_**
 
 
 ---
