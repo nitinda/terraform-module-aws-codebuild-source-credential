@@ -10,3 +10,7 @@ variable "token" {
   description = "This is the personal access token"
 }
 
+variable "user_name" {
+  description = "The Bitbucket username when the authType is BASIC_AUTH"
+  default     = null
+}

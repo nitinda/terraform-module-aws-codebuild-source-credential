@@ -61,6 +61,7 @@ The variables required in order for the module to be successfully called from th
 | auth_type                       | The type of authentication used     | string         |
 | server_type                     | The source provider used            | string         |
 | token                           | The personal access token           | string         |
+| user_name                       | The Bitbucket username (Optional)   | string         |
 
 
 
