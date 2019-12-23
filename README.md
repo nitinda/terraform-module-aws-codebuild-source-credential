@@ -10,7 +10,7 @@ This module may be used to create **_CodeBuild Source Credential_** resources in
 
 ## Prerequisites
 
-This module needs Terraform 0.12.16 or newer.
+This module needs **_Terraform 0.12.16_** or newer.
 You can download the latest Terraform version from [here](https://www.terraform.io/downloads.html).
 
 This module deploys aws services details are in respective feature branches.
@@ -56,13 +56,12 @@ module "<layer>-codebuild-source-credential-<AccountID>" {
 The variables required in order for the module to be successfully called from the deployment repository are the following:
 
 
-|         **_Variable_**          |        **_Description_**            |   **_Type_**   |
-|---------------------------------|-------------------------------------|----------------|
-| auth_type                       | The type of authentication used     | string         |
-| server_type                     | The source provider used            | string         |
-| token                           | The personal access token           | string         |
-| user_name                       | The Bitbucket username (Optional)   | string         |
-
+|**_Variable_** | **_Description_** | **_Type_** | **_Argument Status_** |
+|:----|:----|-----:|:---:|
+| auth_type | The type of authentication used | string | **_Required_** |
+| server_type | The source provider used | string | **_Required_** |
+| token | The personal access token | string | **_Required_** |
+| user_name | The Bitbucket username | string | **_Optional_** |
 
 
 ## Outputs
